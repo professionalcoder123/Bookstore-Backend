@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "k/uU30Vp35s4MxaSCJYKE/6WExGQzVxYXzUvl/07CXg=",
+  "Source": "BookstoreBackend",
+  "BasePath": "_content/BookstoreBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
