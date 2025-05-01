@@ -16,11 +16,12 @@ namespace RepoLayer
             this.context = context;
         }
 
-        public async Task RegisterAdminAsync(Admin admin)
+        public async Task<Admin> RegisterAdminAsync(Admin admin)
         {
             admin.Role = "ADMIN";
-            await context.Admins.AddAsync(admin);
+            var result = await context.Admins.AddAsync(admin);
             await context.SaveChangesAsync();
+            return result.Entity;
         }
 
         public async Task<Admin> GetAdminByEmailAsync(string email)

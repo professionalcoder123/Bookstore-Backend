@@ -8,7 +8,7 @@ namespace RepoLayer
 {
     public interface IUserRepository
     {
-        Task RegisterUserAsync(User user);
+        Task<User> RegisterUserAsync(User user);
 
         Task<User> GetUserByEmailAsync(string email);
 

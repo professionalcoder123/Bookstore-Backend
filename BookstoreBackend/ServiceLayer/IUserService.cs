@@ -9,7 +9,7 @@ namespace ServiceLayer
 {
     public interface IUserService
     {
-        Task RegisterUserAsync(User user);
+        Task<User> RegisterUserAsync(User user);
 
         Task<bool> ForgetPasswordAsync(string email);
 

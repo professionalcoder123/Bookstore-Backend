@@ -9,8 +9,8 @@ namespace ServiceLayer
 {
     public interface IAdminService
     {
-        Task RegisterAdminAsync(Admin admin);
-
+        Task<Admin> RegisterAdminAsync(Admin admin);
+        
         Task<bool> ForgetPasswordAsync(string email);
 
         Task<bool> ResetPasswordAsync(string email, string newPassword);

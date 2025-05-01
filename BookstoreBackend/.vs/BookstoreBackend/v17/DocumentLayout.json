@@ -1,12 +1,422 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\bookstorebackend\\iresponsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FF1A356-97CC-426F-8B9B-80C7DDD92E59}|BookstoreBackend\\BookstoreBackend.csproj|solutionrelative:bookstorebackend\\iresponsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\repolayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9BD5EB-5C16-42E0-8E0D-EF002186D9C5}|RepoLayer\\RepoLayer.csproj|solutionrelative:repolayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\aditya turwatkar\\desktop\\aditya\\bookstore backend\\bookstorebackend\\servicelayer\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B323D5D2-8EFE-4E2D-ADAC-F53680169390}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\AdminService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\AdminService.cs",
+              "RelativeToolTip": "ServiceLayer\\AdminService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:47:14.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\TokenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\TokenService.cs",
+              "RelativeToolTip": "ServiceLayer\\TokenService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:46:23.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BookstoreBackend\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwD0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:32.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\ResponseHelper.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\ResponseHelper.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\ResponseHelper.cs",
+              "RelativeToolTip": "BookstoreBackend\\ResponseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:50:08.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BookstoreBackend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwBwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:38.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\LoginRequest.cs",
+              "RelativeToolTip": "RepoLayer\\LoginRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:48:53.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "BookstoreBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\appsettings.json",
+              "RelativeToolTip": "BookstoreBackend\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAzwBIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T05:30:44.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\BookService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\BookService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\BookService.cs",
+              "RelativeToolTip": "ServiceLayer\\BookService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T05:52:18.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\UserDbContext.cs",
+              "RelativeToolTip": "RepoLayer\\UserDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:48:27.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\UserService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\UserService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\UserService.cs",
+              "RelativeToolTip": "ServiceLayer\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:10:12.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IUserService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IUserService.cs",
+              "RelativeToolTip": "ServiceLayer\\IUserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:46:29.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\UserRepository.cs",
+              "RelativeToolTip": "RepoLayer\\UserRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:47:45.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\Book.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\Book.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\Book.cs",
+              "RelativeToolTip": "RepoLayer\\Book.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA+wBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T05:18:43.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IBookService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IBookService.cs",
+              "RelativeToolTip": "ServiceLayer\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T05:49:53.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\IUserRepository.cs",
+              "RelativeToolTip": "RepoLayer\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:48:57.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\AdminRepository.cs",
+              "RelativeToolTip": "RepoLayer\\AdminRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA+wBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:16.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IAdminService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\IAdminService.cs",
+              "RelativeToolTip": "ServiceLayer\\IAdminService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:46:48.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\IAdminRepository.cs",
+              "RelativeToolTip": "RepoLayer\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:12.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\APIResponse.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\APIResponse.cs",
+              "RelativeToolTip": "BookstoreBackend\\APIResponse.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:43.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IResponseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\IResponseHelper.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\IResponseHelper.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\IResponseHelper.cs",
+              "RelativeToolTip": "BookstoreBackend\\IResponseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:58.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Program.cs",
+              "RelativeDocumentMoniker": "BookstoreBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\Program.cs",
+              "RelativeToolTip": "BookstoreBackend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:50:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\Admin.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\Admin.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\Admin.cs",
+              "RelativeToolTip": "RepoLayer\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:49:23.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\TokenResponse.cs",
+              "RelativeToolTip": "RepoLayer\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:48:49.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\User.cs",
+              "RelativeDocumentMoniker": "RepoLayer\\User.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\RepoLayer\\User.cs",
+              "RelativeToolTip": "RepoLayer\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:48:42.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\ITokenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\ServiceLayer\\ITokenService.cs",
+              "RelativeToolTip": "ServiceLayer\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:46:43.83Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

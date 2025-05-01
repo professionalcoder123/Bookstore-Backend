@@ -12,3 +12,4 @@ C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\Repo
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\RepoLayer\obj\Debug\net6.0\RepoLayer.pdb
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\RepoLayer\obj\Debug\net6.0\RepoLayer.genruntimeconfig.cache
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\RepoLayer\obj\Debug\net6.0\ref\RepoLayer.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\RepoLayer\obj\Debug\net6.0\RepoLayer.sourcelink.json

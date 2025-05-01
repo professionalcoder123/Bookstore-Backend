@@ -15,3 +15,4 @@ C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\Serv
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\ServiceLayer\obj\Debug\net6.0\ServiceLayer.pdb
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\ServiceLayer\obj\Debug\net6.0\ServiceLayer.genruntimeconfig.cache
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\ServiceLayer\obj\Debug\net6.0\ref\ServiceLayer.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\ServiceLayer\obj\Debug\net6.0\ServiceLayer.sourcelink.json

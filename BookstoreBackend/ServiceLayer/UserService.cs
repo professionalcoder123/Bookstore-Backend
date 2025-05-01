@@ -13,9 +13,9 @@ namespace ServiceLayer
             this.tokenService = tokenService;
         }
 
-        public async Task RegisterUserAsync(User user)
+        public async Task<User> RegisterUserAsync(User user)
         {
-            await userRepository.RegisterUserAsync(user);
+            return await userRepository.RegisterUserAsync(user);
         }
 
         public async Task<bool> ForgetPasswordAsync(string email)

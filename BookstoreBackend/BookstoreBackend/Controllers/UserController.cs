@@ -25,8 +25,8 @@ namespace BookstoreBackend.Controllers
             {
                 return BadRequest(response.Failure<string>("Invalid model!"));
             }
-            await userService.RegisterUserAsync(user);
-            return Ok(response.Success<string>("User registered successfully!"));
+            var addedUser=await userService.RegisterUserAsync(user);
+            return Ok(response.Success("User registered successfully!", addedUser));
         }
 
         [HttpPost("forget-password")]

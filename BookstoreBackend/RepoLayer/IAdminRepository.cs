@@ -8,7 +8,7 @@ namespace RepoLayer
 {
     public interface IAdminRepository
     {
-        Task RegisterAdminAsync(Admin admin);
+        Task<Admin> RegisterAdminAsync(Admin admin);
 
         Task<Admin> GetAdminByEmailAsync(string email);
 

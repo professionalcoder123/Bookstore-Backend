@@ -24,9 +24,9 @@ namespace BookstoreBackend.Controllers
             if (!ModelState.IsValid)
             {
                 return BadRequest(response.Failure<string>("Invalid model!"));
-            }               
-            await adminService.RegisterAdminAsync(admin);
-            return Ok(response.Success<string>("Admin registered successfully!"));
+            }
+            var addedAdmin = await adminService.RegisterAdminAsync(admin);
+            return Ok(response.Success("Admin registered successfully!", addedAdmin));
         }
 
         [HttpPost("forget-password")]
