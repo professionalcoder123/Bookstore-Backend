@@ -57,7 +57,7 @@ namespace BookstoreBackend.Controllers
             var tokens = await adminService.LoginAsync(request.Email, request.Password);
             if (tokens == null)
             {
-                return Unauthorized(APIResponse<string>.Fail("Invalid email or password!"));
+                return BadRequest(APIResponse<string>.Fail("Invalid email or password!"));
             }
             return Ok(APIResponse<TokenResponse>.Success("Login successful!", tokens));
         }

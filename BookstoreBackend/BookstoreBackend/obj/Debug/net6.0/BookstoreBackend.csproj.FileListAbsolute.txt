@@ -84,3 +84,4 @@ C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\Book
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\obj\Debug\net6.0\ref\BookstoreBackend.dll
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\obj\Debug\net6.0\BookstoreBackend.sourcelink.json
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\CsvHelper.dll

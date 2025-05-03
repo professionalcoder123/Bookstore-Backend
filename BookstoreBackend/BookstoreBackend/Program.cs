@@ -25,6 +25,8 @@ namespace BookstoreBackend
             builder.Services.AddScoped<IAdminRepository, AdminRepository>();
             builder.Services.AddScoped<IAdminService, AdminService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
+            builder.Services.AddScoped<IBookService, BookService>();
 
             builder.Services.AddScoped<IResponseHelper, ResponseHelper>();
 

@@ -36,5 +36,14 @@ namespace RepoLayer
 
         [Column(TypeName = "VARCHAR(255)")]
         public string? BookImage { get; set; }
+
+        [Column(TypeName = "INT")]
+        public int AdminUserId { get; set; }
+
+        [Column(TypeName = "DATETIME2")]
+        public DateTime? CreatedAt { get; set; }
+
+        [Column(TypeName = "DATETIME2")]
+        public DateTime? UpdatedAt { get; set; }
     }
 }

@@ -69,6 +69,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookstoreBackend.Controllers.BookController",
+    "Method": "GetBooks",
+    "RelativePath": "api/book/getBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookstoreBackend.Controllers.UserController",
     "Method": "ForgetPassword",
     "RelativePath": "api/user/forget-password",

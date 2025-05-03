@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "situun6h4OE=",
+  "dgSpecHash": "Tuq62oQcsvg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Aditya Turwatkar\\Desktop\\Aditya\\Bookstore Backend\\BookstoreBackend\\BookstoreBackend\\BookstoreBackend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aditya Turwatkar\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\Aditya Turwatkar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aditya Turwatkar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.36\\microsoft.aspnetcore.authentication.jwtbearer.6.0.36.nupkg.sha512",
     "C:\\Users\\Aditya Turwatkar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

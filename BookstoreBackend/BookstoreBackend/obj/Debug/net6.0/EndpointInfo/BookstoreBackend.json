@@ -116,6 +116,18 @@
         }
       }
     },
+    "/api/book/getBooks": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/user/register": {
       "post": {
         "tags": [
