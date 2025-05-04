@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RepoLayer;
 using ServiceLayer;
@@ -19,11 +20,24 @@ namespace BookstoreBackend.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterUser(User user)
+        public async Task<IActionResult> RegisterUser([FromBody] User user)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(response.Failure<string>("Invalid model!"));
+                var validationErrors = ModelState
+                    .Where(m => m.Value.Errors.Count > 0)
+                    .SelectMany(m => m.Value.Errors.Select(e => new ValidationError
+                    {
+                        Field = m.Key,
+                        Message = e.ErrorMessage
+                    }))
+                    .ToList();
+                var validationErrorResponse = new ValidationErrorResponse
+                {
+                    Status = false,
+                    Errors = validationErrors
+                };
+                return BadRequest(response.Failure("Validation failed!", validationErrorResponse.Errors));
             }
             var addedUser=await userService.RegisterUserAsync(user);
             return Ok(response.Success("User registered successfully!", addedUser));

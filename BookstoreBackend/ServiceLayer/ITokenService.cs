@@ -8,7 +8,7 @@ namespace ServiceLayer
 {
     public interface ITokenService
     {
-        Task<string> GenerateAccessTokenAsync(string email, string role);
+        Task<string> GenerateAccessTokenAsync(int userId, string email, string role);
         Task<string> GenerateRefreshTokenAsync();
     }
 }

@@ -19,11 +19,24 @@ namespace BookstoreBackend.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterAdmin(Admin admin)
+        public async Task<IActionResult> RegisterAdmin([FromBody] Admin admin)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(response.Failure<string>("Invalid model!"));
+                var validationErrors = ModelState
+                    .Where(m=>m.Value.Errors.Count>0)
+                    .SelectMany(m => m.Value.Errors.Select(e=>new ValidationError
+                    {
+                        Field = m.Key,
+                        Message = e.ErrorMessage
+                    }))
+                    .ToList();
+                var validationErrorResponse = new ValidationErrorResponse
+                {
+                    Status = false,
+                    Errors = validationErrors
+                };
+                return BadRequest(response.Failure("Validation failed!", validationErrorResponse.Errors));
             }
             var addedAdmin = await adminService.RegisterAdminAsync(admin);
             return Ok(response.Success("Admin registered successfully!", addedAdmin));

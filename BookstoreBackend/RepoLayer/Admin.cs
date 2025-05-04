@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace RepoLayer
 {
@@ -14,10 +15,12 @@ namespace RepoLayer
         public int Id { get; set; }
 
         [Required(ErrorMessage = "First name is required")]
+        [RegularExpression("^[A-Za-z]+$", ErrorMessage = "First name should contain only letters")]
         [Column("FirstName", TypeName = "VARCHAR(20)")]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Last name is required")]
+        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = "Last name should contain only letters")]
         [Column("LastName", TypeName = "VARCHAR(20)")]
         public string LastName { get; set; }
 

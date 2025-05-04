@@ -85,3 +85,16 @@ C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\Book
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\obj\Debug\net6.0\BookstoreBackend.sourcelink.json
 C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Aditya Turwatkar\Desktop\Aditya\Bookstore Backend\BookstoreBackend\BookstoreBackend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

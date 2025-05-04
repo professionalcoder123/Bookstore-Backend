@@ -19,12 +19,13 @@ namespace ServiceLayer
             this.configuration = configuration;
         }
 
-        public async Task<string> GenerateAccessTokenAsync(string email, string role)
+        public async Task<string> GenerateAccessTokenAsync(int userId, string email, string role)
         {
             return await Task.Run(() =>
             {
                 var claims = new[]
                 {
+                    new Claim("Id", userId.ToString()),
                     new Claim(ClaimTypes.Email, email),
                     new Claim(ClaimTypes.Role, role)
                 };

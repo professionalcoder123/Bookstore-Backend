@@ -70,6 +70,7 @@ namespace RepoLayer.Migrations
 
                     b.Property<string>("Author")
                         .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("VARCHAR(100)");
 
                     b.Property<string>("BookImage")
@@ -77,7 +78,8 @@ namespace RepoLayer.Migrations
 
                     b.Property<string>("BookName")
                         .IsRequired()
-                        .HasColumnType("VARCHAR(100)")
+                        .HasMaxLength(2000)
+                        .HasColumnType("VARCHAR(2000)")
                         .HasColumnName("BookName");
 
                     b.Property<DateTime?>("CreatedAt")
@@ -85,6 +87,7 @@ namespace RepoLayer.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
+                        .HasMaxLength(20000)
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("DiscountPrice")

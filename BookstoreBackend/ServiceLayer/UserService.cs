@@ -43,7 +43,7 @@ namespace ServiceLayer
                 return null;
             }
 
-            string accessToken = await tokenService.GenerateAccessTokenAsync(user.Email, user.Role);
+            string accessToken = await tokenService.GenerateAccessTokenAsync(user.Id, user.Email, user.Role);
             string refreshToken = await tokenService.GenerateRefreshTokenAsync();
 
             return new TokenResponse
