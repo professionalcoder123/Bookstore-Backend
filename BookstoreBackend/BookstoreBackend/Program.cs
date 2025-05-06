@@ -29,6 +29,8 @@ namespace BookstoreBackend
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddScoped<IBookService, BookService>();
+            builder.Services.AddScoped<ICartRepository, CartRepository>();
+            builder.Services.AddScoped<ICartService, CartService>();
 
             builder.Services.AddScoped<IResponseHelper, ResponseHelper>();
             builder.Services.AddSingleton<IAuthorizationMiddlewareResultHandler, CustomAuthorizationHandler>();

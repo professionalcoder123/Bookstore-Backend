@@ -96,7 +96,6 @@ namespace BookstoreBackend.Controllers
 
                 return BadRequest(responseHelper.Failure("Validation failed!", errors));
             }
-            book.BookImage = string.IsNullOrWhiteSpace(book.BookImage) ? null : book.BookImage;
             var adminIdClaim = User.FindFirst("id") ?? User.FindFirst(ClaimTypes.NameIdentifier);
             if (adminIdClaim == null)
             {

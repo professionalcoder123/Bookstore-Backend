@@ -148,6 +148,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookstoreBackend.Controllers.CartController",
+    "Method": "AddBookToCart",
+    "RelativePath": "api/cart/addBookToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "RepoLayer.AddBookToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.CartController",
+    "Method": "DeleteCart",
+    "RelativePath": "api/cart/deleteCart/{bookId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/cart/getCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.CartController",
+    "Method": "UpdateCart",
+    "RelativePath": "api/cart/updateCart",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "RepoLayer.UpdateCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookstoreBackend.Controllers.UserController",
     "Method": "ForgetPassword",
     "RelativePath": "api/user/forget-password",
