@@ -78,10 +78,16 @@ namespace BookstoreBackend.Controllers
                     })).ToList();
                 return BadRequest(responseHelper.Failure("Validation failed!", errors));
             }
+            var existingCart = await cartService.GetCartWithTotalAsync(User);
+            bool itemExists = existingCart.CartItems.Any(c => c.BookId == cartDto.BookId);
             var updatedCart = await cartService.UpdateCartAsync(User, cartDto);
             if (updatedCart == null)
             {
-                return NotFound(responseHelper.Failure<string>("Cart item not found or removed due to zero quantity!"));
+                if (!itemExists)
+                {
+                    return BadRequest(responseHelper.Failure<string>("Book does not exist in your cart!"));
+                }
+                return Ok(responseHelper.Success<string>("Cart item removed as quantity was set to zero."));
             }
             return Ok(responseHelper.Success("Cart item updated successfully!", updatedCart));
         }

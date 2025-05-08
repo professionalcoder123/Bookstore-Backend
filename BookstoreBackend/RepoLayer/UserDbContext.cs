@@ -18,5 +18,7 @@ namespace RepoLayer
         public DbSet<Book> Books { get; set; }
 
         public DbSet<Cart> Cart { get; set; }
+
+        public DbSet<Wishlist> Wishlist { get; set; }
     }
 }

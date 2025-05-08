@@ -454,6 +454,62 @@
           }
         }
       }
+    },
+    "/api/wishlist/addBook": {
+      "post": {
+        "tags": [
+          "Wishlist"
+        ],
+        "parameters": [
+          {
+            "name": "bookId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/wishlist/getWishlist": {
+      "get": {
+        "tags": [
+          "Wishlist"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/wishlist/removeBook": {
+      "delete": {
+        "tags": [
+          "Wishlist"
+        ],
+        "parameters": [
+          {
+            "name": "bookId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

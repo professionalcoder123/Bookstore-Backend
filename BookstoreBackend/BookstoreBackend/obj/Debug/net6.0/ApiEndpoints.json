@@ -273,5 +273,47 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.WishlistController",
+    "Method": "AddBookToWishlist",
+    "RelativePath": "api/wishlist/addBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.WishlistController",
+    "Method": "GetWishlist",
+    "RelativePath": "api/wishlist/getWishlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreBackend.Controllers.WishlistController",
+    "Method": "RemoveBookFromWishlist",
+    "RelativePath": "api/wishlist/removeBook",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
